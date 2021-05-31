@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Open Sans', 'Roboto', Helvetica, sans-serif;
+  color: $secondaryGrey;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Roboto', Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0.2em 0;
+  line-height: 1.625;
+  font-weight: 400;
+  @mixin atSmall {
+    font-size: 1.125rem;
+  }
+}
+
+a {
+  color: $mainOrange;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
