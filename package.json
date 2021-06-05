@@ -2,8 +2,12 @@
   "name": "todoist-clone",
   "version": "1.0.0",
   "scripts": {
+    "preinstall": "npx npm-force-resolutions",
     "webpack": "webpack",
     "watch": "gulp watch"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
   },
   "dependencies": {
     "normalize.css": "7.0.0",
