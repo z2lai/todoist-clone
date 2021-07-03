@@ -1,3 +1,3 @@
-import toggleHeader from './modules/toggleHeader';
+// import toggleHeader from './modules/toggleHeader';
 
-window.addEventListener('scroll', toggleHeader);
+// window.addEventListener('scroll', toggleHeader);
